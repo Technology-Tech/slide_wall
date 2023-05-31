@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Slide Wall</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:12,
+		animSpeed:500,
+		pauseTime:2000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:false,
+		directionNavHide:false, //Only show on hover
+		controlNav:false, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.7, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+</script>
+
+</head>
+<body>
+
+<div id="tooplate_header">
+    <div id="site_title"><h1><a href="#">Slide Wall</a></h1></div>
+    
+    <div id="tooplate_menu">
+        <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html" class="last">Contact</a></li>
+        </ul>    	
+    </div> <!-- end of tooplate_menu -->
+    <div class="cleaner"></div>
+</div>
+
+<div id="tooplate_middle">
+    
+    <div id="slider">
+        <a href="#"><img src="images/slideshow/01.jpg" alt="slideshow 01" title="Morbi sit amet nulla vitae neque auctor malesuada sed ac ante." /></a>
+        <a href="#"><img src="images/slideshow/02.jpg" alt="slideshow 02" title="Sed consequat rutrum velit, sit amet ultricies est adipiscing molestie." /></a>
+        <a href="#"><img src="images/slideshow/03.jpg" alt="slideshow 03" title="Fusce dignissim justo in odio aliquet luctus imperdiet dui molestie." /></a>
+        <a href="#"><img src="images/slideshow/04.jpg" alt="slideshow 04" title="In nec felis id magna dignissim rhoncus sed in nulla." /></a>
+        <a href="#"><img src="images/slideshow/05.jpg" alt="slideshow 05" title="Maecenas pellentesque dictum velit, vitae dignissim enim volutpat sed." /></a>
+    </div>
+</div>
+    
+<div id="tooplate_main">
+    
+    <div class="col_w960">
+        <h2>What We Do?</h2>
+        <div class="col_w450 float_l">
+            <div class="wwd_box">
+                <img src="images/icon1.png" alt="Work One" />
+                <h3><a href="#">Etiam a Dui et Eros Imperdiet Rhoncus</a></h3>
+                <p>Slide Wall  is brought to you by <a href="http://www.tooplate.com" target="_parent">Website Templates</a>. Feel free to use this template for your websites. Phasellus ultricies molestie erat sit amet sagittis. </p>
+                 <a href="#" class="more float_r">More</a>
+              <div class="cleaner"></div>
+            </div>
+            <div class="wwd_box">
+                <img src="images/icon2.png" alt="Work One" />
+                <h3><a href="#">Aenean Quis Nulla ac Nisl Rutrum Ornare</a></h3>
+                 <p>Credit goes to <a href="http://iconeden.com/icon/bright-free-stock-iconset.html" target="_blank">IconEden</a> for icons used in this template. Praesent placerat dui ut nibh eleifend lobortis. Vestibulum dictum tincidunt posuere.</p>
+                 <a href="#" class="more float_r">More</a>
+                <div class="cleaner"></div>
+            </div>
+        </div>
+        
+        <div class="col_w450 float_r">
+            <div class="wwd_box">
+                <img src="images/icon3.png" alt="Work One" />
+                <h3><a href="#">Lorem Ipsum Dolor Sit Amet</a></h3>
+                <p>Integer ultrices enim non ipsum pulvinar, sed tincidunt ipsum lacinia. Suspendisse fermentum lectus ac magna placerat auctor.</p>
+                 <a href="#" class="more float_r">More</a>
+              <div class="cleaner"></div>
+            </div>
+            <div class="wwd_box">
+                <img src="images/icon4.png" alt="Work One" />
+                <h3><a href="#">Praesent Dui Nibh Eleifend Lobortis</a></h3>
+                <p>Libero accumsan erat, sit amet ornare lectus urna a turpis. Maecenas et eros erat. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>. Aliquam mollis pulvinar diam, sed iaculis lacus viverra sed.</p>
+                 <a href="#" class="more float_r">More</a>
+              <div class="cleaner"></div>
+            </div>
+        </div>
+        
+        <div class="cleaner"></div>
+    </div>
+
+    <div class="col_w960 col_w960_last">
+        <h2>New Projects</h2>
+        <div class="lp_box">
+            <h6>Corporate Web Design</h6>
+            <a href="#"><img src="images/tooplate_image_01.jpg" alt="Image 01" /></a>
+            <p>Etiam ut nibh et urna cursus ultricies nec vel nunc. In hac habitasse platea dictumst. </p>
+            <a href="#" class="more float_r">More</a>
+                <div class="cleaner"></div>
+    </div>
+        <div class="lp_box">
+            <h6>Professional HTML CSS Layout</h6>
+            <a href="#"><img src="images/tooplate_image_02.jpg" alt="Image 02" /></a>
+            <p>Donec ullamcorper feugiat nunc ut tempus. Sed sodales, nibh ut ultricies pulvinar.</p>
+            <a href="#" class="more float_r">More</a>
+                <div class="cleaner"></div>
+    </div>
+<div class="lp_box lp_box_last">
+            <h6>Visual Green Website</h6>
+            <a href="#"><img src="images/tooplate_image_03.jpg" alt="Image 03" /></a>
+            <p>Praesent auctor quam quis libero venenatis dapibus. Donec ullamcorper   feugiat nunc ut tempus.</p>
+            <a href="#" class="more float_r">More</a>
+                <div class="cleaner"></div>
+        </div>
+        <div class="cleaner"></div>
+    </div>
+    
+    <div class="cleaner"></div>
+</div> <!-- end of main -->
+        
+<div id="tooplate_footer_wrapper">
+	<div id="tooplate_footer">
+    	
+        Copyright © 2023 <a href="#">Slide Wall</a> - Design: <b><a href="#">PAVANKHANDHAR</a></b>
+
+    
+    </div> <!-- end of footer wrapper -->
+</div> <!-- end of footer -->
+
+</body>
+</html>
